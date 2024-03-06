@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+body {
+  overflow-x: hidden;
+}
+.Menu-Option {
+  color: white;
+  text-decoration: none;
+}
+.Menu-Option:hover {
+  color: gray;
+  text-decoration: none;
+}
+p {
+  justify-content: center;
+}
+h1 {
+  color: black;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.Avatar {
+  width: 15%;
+  height: auto;
+  justify-content: center; 
+  size: 2em;
+}
+.Introduction {
+  color: white;
+  padding-bottom: 18px;
+  padding-top: 20px;
+}
+.App-Header {
+  background-color: #282c34;
+  background-image: url(./public/nightsky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.Timeline {
+  background-image: url(./public/invert.png);
+  background-repeat: repeat;
+  padding-bottom: 100px;
+}
+.Projects {
+  color: rgb(0, 0, 0);
+  position: static;
+  padding-bottom: 100px;
+}
+.ProjectPics {
+  display: block;
+  height: auto;
+  position: static;
+}
+.TimelineDate {
+  margin-left: -35%;
+  color: black;
+}
+.SidebarMenu {
+  position: sticky;
+  top: 5%;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+.Contact-Logos {
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.Logos {
+  position: fixed;
+  top: 92%;
+  width: 15%;
+  color: white;
+}
+.Home-Icon {
+  position: fixed;
+  top: 5%;
+  width: 15%;
+  color: white;
+}
+.Resume-Button {
+  display: inline-block;
+  color: #fff;
+  padding: 5px 10px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  transition: .5s ease all;
+  text-decoration: none;
+  font-size: small;
+  justify-content: center;
+}
+.Resume-Button:hover {
+  color:#3498db;
+  background:#fff;
+  text-decoration:none;
+  justify-content: center;
+}
+.Skills {
+  background-image: url(./public/invert.png);
+  padding-bottom: 100px;
+}
