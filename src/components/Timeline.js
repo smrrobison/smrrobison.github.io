@@ -28,27 +28,27 @@ const Timeline = () => {
                             <p>
                                 <ul>
                                     <li>
-                                        Building and maintaining the collateral management feature within nCino’s cloud-based banking 
-                                        software on the Salesforce platform, utilized by over 1,750 financial institutions.
+                                    Building and maintaining the most frequently used feature within nCino’s cloud-based banking software 
+                                    on the Salesforce platform, utilized by over 1,850 financial institutions.
                                     </li>
                                     <li>
-                                        Developing robust back-end services within a Service-Oriented Architecture (SOA) stack, utilizing 
-                                        Apex and Angular for efficient storage and retrieval of client data.
+                                        Designing and implementing over 50 custom front-end Lightning Web Components in JavaScript, making 
+                                        platform features more responsive and attractive to new and existing clients.
                                     </li>
-                                    <li>Designing and implementing custom front-end Lightning Web Components in JavaScript</li>
                                     <li>
-                                        Taking sole-ownership of automated testing design, creation, and training that has increased test 
-                                        frequency from monthly to nightly and reduced test time by 99.2%
+                                        Developing robust back-end services within a Service-Oriented Architecture (SOA) stack utilizing Apex and 
+                                        Angular, contributing to a $108.4M increase in subscription revenues - up 19% year-over-year.
+                                    </li>
+                                    <li>
+                                        Taking sole-ownership of automated testing design, creation, and training that has increased 
+                                        test frequency from monthly to nightly and reduced test time by ~97%.
                                     </li>
                                     <li>
                                         Creating and supporting diverse API endpoints (Aura, Xpkg, URT, etc.) to enhance accessibility and 
                                         usage of platform services.
                                     </li>
                                     <li>
-                                        Spearheading agile epics from planning, to development, to testing and release.
-                                    </li>
-                                    <li>
-                                        Spearheading agile epics from planning, to development, to testing and release.
+                                        Spearheading end-to-end agile epics from planning, to development, to testing and release.
                                     </li>
                                     <li>
                                         Conducting regular sprint reviews to showcase and demo completed features to stakeholders.
@@ -71,7 +71,7 @@ const Timeline = () => {
                     className="vertical-timeline-element--work"
                     //contentStyle={{ background: 'rgb(29,29,29)' }}
                     //contentArrowStyle={{ borderRight: '7px solid  rgb(29,29,29)', }}
-                    date="Mar 2021 - Oct 2021"
+                    date="Mar 2021 - Nov 2021"
                     dateClassName = "TimelineDate"
                     iconStyle={{ background: '#00998B', color: '#fff' }}
                     icon={<RoomIcon />}            >
@@ -79,29 +79,15 @@ const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle">Wander App Inc.</h4>
                     <p>
                         <ul>
-                            <li>Worked alongside the development team to create a cohesive mapping application 
-                                (including trails, informational guides, and more) 
-                                for local investors and users on both web and mobile devices.
+                            <li>
+                                Created new features for a B2B mapping application on both web and mobile devices using React.JS and Docker.
                             </li>
-                            <li>Wrote production-ready code with fluency in modern front-end and back-end frameworks</li>
-                            <li>Wrote and utilized automated tests to test the functionality of the web application.</li>
-                        </ul>
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="Mar 2021 - Sep 2021"
-                    dateClassName = "TimelineDate"
-                    iconStyle={{ background: '#7952B3', color: '#fff' }}
-                    icon={<ComputerIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Software Development Consultant</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Tower Media</h4>
-                    <p>
-                        <ul>
-                            <li>Developed the time localization functionality for the messaging feature on Clubhouse, an audio-based social media application.</li>
-                            <li>Designed complete solution architecture tailored to specific end-user needs.</li>
-                            <li>Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.</li>
+                            <li>
+                                Built a brand new customer login experience as part of the company’s brand redesign.
+                            </li>
+                            <li>
+                                Wrote and utilized automated tests using Cypress to assess the functionality of the web application and ensure product quality.
+                            </li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -116,9 +102,13 @@ const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle">Boostability</h4> 
                     <p>
                         <ul>
-                            <li>Optimized meta titles, descriptions, H1 , H2, and alt-image tags on client webpages based on current best SEO practices.</li>
-                            <li>Interacted, collaborated, and organized meetings with cross-functional teams to determine user requirements and streamline the QA process.</li>
-                            <li>Made UI/UX edits to client websites.</li>
+                            <li>
+                                Optimized front-end elements on client web pages according to best SEO practices.
+                            </li>
+                            <li>
+                                Organized and facilitated meetings with cross-functional teams to discuss new user requirements, eliminate common customer pain 
+                                points, and streamline multi-department communication channels.
+                            </li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -166,9 +156,12 @@ const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle">Auto Alert</h4>
                     <p>
                         <ul>
-                            <li>Tested software to assist dealerships in the organization and maintenance of client data.</li>
-                            <li>Created documentation aiding other analysts to test future software releases.</li>
-                            <li>Input and maintained sensitive client data.</li>
+                            <li>
+                                Tested software that assists car dealerships in the organization and maintenance of client data.
+                            </li>
+                            <li> 
+                                Created extensive documentation for the manual testing process conducted before each scheduled release.
+                            </li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
